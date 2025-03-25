@@ -10,7 +10,7 @@ const Order = require('../models/orders.model');
 const jwt = require("jsonwebtoken");
 const route = express.Router();
 const mcurl =
-  "mongodb://localhost:27017/c-Mart";
+  "mongodb+srv://jvdimvp:Pradeep903@cluster0.d2cwd.mongodb.net/ConstructionMart?retryWrites=true&w=majority&appName=Cluster0";
 mongoose
   .connect(mcurl)
   .then(() => {
